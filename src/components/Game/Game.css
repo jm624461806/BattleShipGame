@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.gameBoard {
+    margin: 60px 15px 0 15px;
+    font-size: 1.3em;
+    font-family: 'Orbitron', serif;
+}
+
+.reset, .rule, .homepage {
+    position: absolute;
+    top: 20px;
+    font-size: 1.1em;
+    font-weight: 400;
+    padding: 5px 20px;
+    letter-spacing: normal;
+    background-color: #076bcfca;
+    box-shadow: 0.05em 0.1em 0.1em #002855;
+}
+
+.reset {
+    left: 15px;
+}
+
+#resetTip, #ruleTip{
+    font-family: 'Secular One', sans-serif;
+}
+
+.rule {
+    left: 110px;
+}
+
+.homepage {
+    right: 20px;
+}
+
+.homepage:hover {
+    box-shadow: 0.3em 0.2em 0.2em #002855;
+    transform: translateX(-0.15em) translateY(-0.25em);
+}
+
+.rule:hover {
+    box-shadow: 0.3em 0.2em 0.2em #002855;
+    transform: translateX(-0.15em) translateY(-0.25em);
+}
+
+.reset:hover {
+    box-shadow: 0.3em 0.2em 0.2em #002855;
+    transform: translateX(-0.15em) translateY(-0.25em);
+}
+
+@media(max-width: 600px) {
+    .reset, .rule, .homepage {
+        padding: 5px 6px;
+        letter-spacing: 0.1em;
+        font-size: 0.5em;
+        margin-bottom: 20px;
+    }
+
+    .reset {
+        top: 10px;
+        left: 5px;
+    }
+
+    .rule {
+        top: 10px;
+        left: 50px;
+    }
+
+    #resetTip, #ruleTip{
+        font-size: 0.5em;
+    }
+
+}

@@ -1,0 +1,24 @@
+#freeBoard {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.freeAi {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.win {
+    font-size: 80px;
+    color: aliceblue;
+    margin-top: 10%;
+}
+
+@media(max-width: 600px) {
+    .hasWin {
+        font-size: 50px;
+        margin-top: 50%;
+    }
+}

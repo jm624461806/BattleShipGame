@@ -1,0 +1,19 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 46px);
+    grid-template-rows: repeat(10, 46px);
+    background-color: rgba(230, 158, 16, 0.82);
+}
+
+
+#droppableBoard {
+    position: relative;
+}
+
+@media(max-width: 600px) {
+    #board {
+        display: grid;
+        grid-template-columns: repeat(10, 30px);
+        grid-template-rows: repeat(10, 30px);
+    }
+}
